@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  vertical-align: middle;
+  text-align: center;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+header {
+  background-color: #d05c2e;
+  color: #fff;
+  padding-top: 0.5em;
+  margin: 0;
+}
+
+nav {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  border: 1px solid #a63f38;
+  margin: 0;
+  padding: .5em 5em;
+  display: block;
+}
+
+nav li {
+  float: left;
+  width: 33.3333%;
+}
+
+ul {
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.left {
+  float: left;
+  width: 40px;
+}
+
+.right {
+  float: right;
+  width: 40px;
+}
